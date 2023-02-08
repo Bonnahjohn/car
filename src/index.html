@@ -12,14 +12,16 @@
       class="sticky-top w-full bg-green-400 h-14 items-center py-4 pb-0"
       id="scrollspy1"
     >
-      <div class="text-sm justify-between flex container mx-auto lg:px-16">
-        <div><span class="text-base">Repairer</span></div>
-        <ul class="nav nav-tabs menu-sidebar flex space-x-6">
+      <div
+        class="text-sm justify-between lg:flex hidden container mx-auto lg:px-16"
+      >
+        <div><span class="text-base font-bold">Repairer</span></div>
+        <ul class="nav nav-tabs menu-sidebar flex space-x-6 font-bold">
           <li class="">
             <a class="nav-link" href="#Home">HOME</a>
           </li>
           <li class="">
-            <a class="nav-link" href="#example-2">SERVICE</a>
+            <a class="nav-link" href="#Service">SERVICE</a>
           </li>
           <li class="">
             <a class="nav-link" href="#example-3">ABOUT US</a>
@@ -35,84 +37,47 @@
       data-bs-spy="scroll"
       data-bs-target="#scrollspy1"
       data-bs-offset="200"
-      class="scrollspy-example"
+      class="scrollspy-example pt-10"
     >
-      <div class="conatainer mx-auto lg:px-[90px]">
+      <div class="conatainer mx-auto lg:px-[90px] md:px-5 px-5">
+        <!--mmmmmmmmmmmmmmmmmmmmmmmmmm hero section of the page mmmmmmmmmmmmmmmmmmmmm-->
         <section id="Home">
-          <h3 class="text-xl font-semibold pt-5 pb-3">Section 1</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
+          <div class="grid lg:grid-cols-2 gap-8 md:grid-cols-2">
+            <div class="col-span-1">
+              <h1 class="text-4xl font-bold font-serif lg:pb-0 pb-3">
+                AUTO CAR <br />
+                MAINTENANCE
+              </h1>
+              <p
+                class="lg:whitespace-pre-line leading-6 md:whitespace-normal text-base font-sans pb-4"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                quidem, eos laudantium assumenda saepe quidem, eos laudantium
+                earum labore assumenda Quod.
+              </p>
+              <a
+                href="tel:+233554308135"
+                role="button"
+                class="bg-green-500 py-2 px-4 text-white rounded-md hover:bg-opacity-70 shadow-lg"
+                >APPIONTMENT</a
+              >
+            </div>
+            <div class="col-span-1">
+              <img
+                src="assets/hero.jpg"
+                alt="hero image"
+                class="h-auto w-auto"
+              />
+            </div>
+          </div>
         </section>
-        <section id="example-2">
-          <h3 class="text-xl font-semibold pt-5 pb-3">Section 2</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
+        <!-- Services we offer section -->
+        <section id="Service" class="mt-20">
+          <h2 class="text-center text-4xl font-serif">Services we offer</h2>
+          <div></div>
         </section>
-        <section id="example-3">
-          <h3 class="text-xl font-semibold pt-5 pb-3">Section 3</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            earum natus vel minima quod error maxime, molestias ut. Fuga
-            dignissimos nisi nemo necessitatibus quisquam obcaecati et
-            reiciendis quaerat accusamus numquam.
-          </p>
-          <section id="example-4">
-            <h3 class="text-xl font-semibold pt-5 pb-3">Subsection A</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-              earum natus vel minima quod error maxime, molestias ut. Fuga
-              dignissimos nisi nemo necessitatibus quisquam obcaecati et
-              reiciendis quaerat accusamus numquam.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-              earum natus vel minima quod error maxime, molestias ut. Fuga
-              dignissimos nisi nemo necessitatibus quisquam obcaecati et
-              reiciendis quaerat accusamus numquam.
-            </p>
-          </section>
-          <section id="example-4">
-            <h3 class="text-xl font-semibold pt-5 pb-3">Subsection B</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-              earum natus vel minima quod error maxime, molestias ut. Fuga
-              dignissimos nisi nemo necessitatibus quisquam obcaecati et
-              reiciendis quaerat accusamus numquam.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-              earum natus vel minima quod error maxime, molestias ut. Fuga
-              dignissimos nisi nemo necessitatibus quisquam obcaecati et
-              reiciendis quaerat accusamus numquam.
-            </p>
-          </section>
-        </section>
+        <section id="example-3"></section>
+        <section id="example-4"></section>
       </div>
     </main>
 
