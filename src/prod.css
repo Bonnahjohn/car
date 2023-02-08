@@ -4378,6 +4378,16 @@ textarea.form-control.is-invalid {
     padding-left: 7rem;
     padding-right: 7rem;
   }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -4414,5 +4424,15 @@ textarea.form-control.is-invalid {
   .\32xl\:px-\[580px\] {
     padding-left: 580px;
     padding-right: 580px;
+  }
+
+  .\32xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .\32xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
